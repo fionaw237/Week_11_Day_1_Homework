@@ -45,8 +45,8 @@ public class PrinterTest {
     @Test
     public void canRefillPrinter(){
         printer.print(10, 3);
-        printer.refill();
-        assertEquals(100, printer.getSheets());
+        printer.refill(40);
+        assertEquals(110, printer.getSheets());
     }
 
     @Test

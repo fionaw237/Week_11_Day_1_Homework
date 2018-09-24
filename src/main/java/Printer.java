@@ -35,7 +35,7 @@ public class Printer {
         this.toner -= pages * copies;
     }
 
-    public void refill(){
-        this.sheets = 100;
+    public void refill(int newSheets){
+        this.sheets += newSheets;
     }
 }
