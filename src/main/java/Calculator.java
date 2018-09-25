@@ -12,7 +12,7 @@ public class Calculator {
         return x * y;
     }
 
-    public int divide(int x, int y){
+    public double divide(double x, double y){
         return x / y;
     }
 

@@ -31,8 +31,8 @@ public class CalculatorTest {
 
     @Test
     public void canDivide(){
-        int result = calculator.divide(10, 5);
-        assertEquals(2, result);
+        double result = calculator.divide(11, 5);
+        assertEquals(2.2, result, 0);
     }
 }
 
